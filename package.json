@@ -1,0 +1,22 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Criando uma API REST",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "Pedro Benevides",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "tsx": "^4.16.2"
+  }
+}
